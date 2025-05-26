@@ -25,6 +25,12 @@ pip install -r requirements.txt
 
 ## Usage
 
+### Extract the Dataset
+
+```bash
+unzip ./data/data.zip -d ./data/
+```
+
 ### Manually Running Experiments
 
 1. Run the main script:
