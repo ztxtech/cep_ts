@@ -127,7 +127,7 @@ If you find this repo useful, please cite our paper.
 
 ```
 @misc{zhan2025continuous,
-  title={TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis},
+  title={Continuous Evolution Pool: Taming Recurring Concept Drift in Online Time Series Forecasting},
   author={Tianxiang Zhan and Ming Jin and Yuanpeng He and Yuxuan Liang and Yong Deng and Shirui Pan},
   year={2025}
 }
