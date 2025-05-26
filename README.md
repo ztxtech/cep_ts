@@ -1,4 +1,18 @@
-# Continuous Evolution Pool: Taming Recurring Concept Drift in Online Time Series Forecasting
+<div align="center">
+  <h2><b> Continuous Evolution Pool: Taming Recurring Concept Drift
+    <br/> in Online Time Series Forecasting </b></h2>
+</div>
+
+**Repo Status:**
+
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)
+[![Visits Badge](https://badges.pufler.dev/visits/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts/activity?ref=master&activity_type=direct_push)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/t/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts/graphs/commit-activity)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts)
+[![GitHub forks](https://img.shields.io/github/forks/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts)
+[![GitHub watchers](https://img.shields.io/github/watchers/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts)
 
 ## Introduction
 
@@ -81,3 +95,31 @@ python run_scripts/parameter_sensitivity.py
 - `layers`: Contains neural network layer implementations.
 - `models`: Contains different model implementations.
 - `utils`: Contains utility functions.
+
+## Citation
+
+If you find this repo useful, please cite our paper.
+
+```
+@misc{zhan2025continuous,
+  title={TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis},
+  author={Tianxiang Zhan and Ming Jin and Yuanpeng He and Yuxuan Liang and Yong Deng and Shirui Pan},
+  year={2025}
+}
+```
+
+## License
+
+This source code is released under the MIT license, included [here](LICENSE).
+
+## Acknowledgement
+
+This library is constructed based on the following repos:
+
+- [**FSNet** https://github.com/salesforce/fsnet/](https://github.com/salesforce/fsnet/).
+- [**OneNet**: https://github.com/yfzhang114/OneNet/](https://github.com/yfzhang114/OneNet/).
+- [**Time Series Library**: https://github.com/thuml/Time-Series-Library/](https://github.com/thuml/Time-Series-Library/).
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ztxtech/cep_ts&type=Date)](https://star-history.com/#ztxtech/cep_ts&Date)
