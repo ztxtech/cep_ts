@@ -50,8 +50,8 @@
   <section class="hero">
     <div class="columns is-centered is-max-desktop">
       <div class="column has-text-centered">
-        <h1 class="title is-1 publication-title">Continuous Evolution Pool: Taming Recurring Concept Drift 
-        </br> in Online Time Series Forecasting</h1>
+        <h1 class="title is-1 publication-title">Continuous Evolution Pool: Taming Recurring Concept Drift
+          </br> in Online Time Series Forecasting</h1>
         <div class="is-size-5 publication-authors">
           <span class="author-block">
             <a href="https://scholar.google.com.hk/citations?user=bRYz250AAAAJ">Tianxiang Zhan</a><sup>1</sup>,
@@ -76,7 +76,7 @@
         <div class="is-size-5 publication-authors">
           <span class="author-block"><sup>1</sup>University of Electronic Science and Technology of China,</span>
           <span class="author-block"><sup>2</sup>Griffith University,</span>
-        </br>
+          </br>
           <span class="author-block"><sup>3</sup>Peking University,</span>
           <span class="author-block"><sup>4</sup>Hong Kong University of Science and Technology (Guangzhou)</span>
         </div>
@@ -85,9 +85,7 @@
           <div class="publication-links">
             <!-- PDF Link. -->
             <span class="link-block">
-              <!--TODO-->
-              <a href="https://arxiv.org/abs/XXXXXXXXX"
-                class="external-link button is-normal is-rounded is-dark">
+              <a href="https://arxiv.org/pdf/2506.14790" class="external-link button is-normal is-rounded is-dark">
                 <span class="icon">
                   <i class="fas fa-file-pdf"></i>
                 </span>
@@ -111,7 +109,8 @@
       </div>
     </div>
     <div class="columns is-centered is-max-desktop">
-      <img src="./figs/value.gif" class="figure-img img-fluid" alt="Responsive image" style="margin:0px 0px; width: 30%; height: auto;">
+      <img src="./figs/value.gif" class="figure-img img-fluid" alt="Responsive image"
+        style="margin:0px 0px; width: 30%; height: auto;">
     </div>
     <!-- </section> -->
   </section>
@@ -124,7 +123,21 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-                Recurring concept drift, a type of concept drift in which previously observed data patterns reappear after some time, is one of the most prevalent types of concept drift in time series. As time progresses, concept drift occurs and previously encountered concepts are forgotten, thereby leading to a decline in the accuracy of online predictions. Existing solutions employ parameter updating techniques to delay forgetting; however, this may result in the loss of some previously learned knowledge while neglecting the exploration of knowledge retention mechanisms. To retain all conceptual knowledge and fully utilize it when the concepts recur, we propose the Continuous Evolution Pool (CEP), a pooling mechanism that stores different instances of forecasters for different concepts. Our method first selects the forecaster nearest to the test sample and then learns the features from its neighboring samples—a process we refer to as the retrieval. If there are insufficient neighboring samples, it indicates that a new concept has emerged, and a new model will evolve from the current nearest sample to the pool to store the knowledge of the concept. Simultaneously, the elimination mechanism will enable outdated knowledge to be cleared to ensure the prediction effect of the forecasters. Experiments on different architectural models and eight real datasets demonstrate that CEP effectively retains the knowledge of different concepts. In the scenario of online forecasting with recurring concepts, CEP significantly enhances the prediction results.
+              Recurring concept drift, a type of concept drift in which previously observed data patterns reappear after
+              some time, is one of the most prevalent types of concept drift in time series. As time progresses, concept
+              drift occurs and previously encountered concepts are forgotten, thereby leading to a decline in the
+              accuracy of online predictions. Existing solutions employ parameter updating techniques to delay
+              forgetting; however, this may result in the loss of some previously learned knowledge while neglecting the
+              exploration of knowledge retention mechanisms. To retain all conceptual knowledge and fully utilize it
+              when the concepts recur, we propose the Continuous Evolution Pool (CEP), a pooling mechanism that stores
+              different instances of forecasters for different concepts. Our method first selects the forecaster nearest
+              to the test sample and then learns the features from its neighboring samples—a process we refer to as the
+              retrieval. If there are insufficient neighboring samples, it indicates that a new concept has emerged, and
+              a new model will evolve from the current nearest sample to the pool to store the knowledge of the concept.
+              Simultaneously, the elimination mechanism will enable outdated knowledge to be cleared to ensure the
+              prediction effect of the forecasters. Experiments on different architectural models and eight real
+              datasets demonstrate that CEP effectively retains the knowledge of different concepts. In the scenario of
+              online forecasting with recurring concepts, CEP significantly enhances the prediction results.
             </p>
           </div>
         </div>
@@ -162,31 +175,35 @@
             <h2 class="title is-3">Experimental Results</h2>
             <div class="content has-text-justified is-3">
               <p>
-                CEP can assign different concepts to forecasters (TCN) with different gene, effectively correcting the forecasting results of recurring concepts.
+                CEP can assign different concepts to forecasters (TCN) with different gene, effectively correcting the
+                forecasting results of recurring concepts.
               </p>
             </div>
 
             <center>
               <figure class="figure">
-                <img src="./figs/fig1.png" class="figure-img img-fluid" alt="Forecasting Visualization" style="margin:20px;">
+                <img src="./figs/fig1.png" class="figure-img img-fluid" alt="Forecasting Visualization"
+                  style="margin:20px;">
               </figure>
             </center>
 
             <h2 class="title is-3">Evolutionary Trajectory</h2>
             <div class="content has-text-justified is-3">
               <p>
-                In the gene space, CEP will evolve according to the samples that arrive, and the elimination mechanism can dynamically maintain that the number of CEP's predictors will not be excessive.
+                In the gene space, CEP will evolve according to the samples that arrive, and the elimination mechanism
+                can dynamically maintain that the number of CEP's predictors will not be excessive.
             </div>
 
             <center>
               <figure class="figure">
-                <img src="./figs/fig2.png" class="figure-img img-fluid" alt="Visualization of evolution trajectories" style="margin:20px;">
+                <img src="./figs/fig2.png" class="figure-img img-fluid" alt="Visualization of evolution trajectories"
+                  style="margin:20px;">
               </figure>
             </center>
 
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <!--/ Supplement matarials -->
 
