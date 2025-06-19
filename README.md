@@ -5,6 +5,7 @@
 
 **Repo Status:**
 
+[![arxiv](https://img.shields.io/badge/cs.LG-2506.14790-b31b1b?style=flat&logo=arxiv&logoColor=red)](https://arxiv.org/abs/2506.14790)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-green)
 [![Visits Badge](https://badges.pufler.dev/visits/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts)
 [![GitHub last commit](https://img.shields.io/github/last-commit/ztxtech/cep_ts)](https://github.com/ztxtech/cep_ts/activity?ref=master&activity_type=direct_push)
@@ -126,10 +127,14 @@ python run_scripts/parameter_sensitivity.py
 If you find this repo useful, please cite our paper.
 
 ```
-@misc{zhan2025continuous,
-  title={Continuous Evolution Pool: Taming Recurring Concept Drift in Online Time Series Forecasting},
-  author={Tianxiang Zhan and Ming Jin and Yuanpeng He and Yuxuan Liang and Yong Deng and Shirui Pan},
-  year={2025}
+@misc{zhan2025continuousevolutionpooltaming,
+      title={Continuous Evolution Pool: Taming Recurring Concept Drift in Online Time Series Forecasting}, 
+      author={Tianxiang Zhan and Ming Jin and Yuanpeng He and Yuxuan Liang and Yong Deng and Shirui Pan},
+      year={2025},
+      eprint={2506.14790},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.14790}, 
 }
 ```
 
